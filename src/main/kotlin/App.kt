@@ -1,6 +1,4 @@
-import challanges.countingValleys
-import challanges.jumpingOnClouds
-import challanges.sockMerchant
+import challanges.*
 
 fun main(){
     var result = ""
@@ -10,8 +8,15 @@ fun main(){
     /*val hikeString = "UDDDUDUU"
     result = countingValleys(hikeString.length,hikeString).toString()*/
 
-    val ar = arrayOf(0,0,1,0,0,1,0,0)
-    result = jumpingOnClouds(ar).toString()
+    /*val ar = arrayOf(0,0,1,0,0,1,0,0)
+    result = jumpingOnClouds(ar).toString()*/
 
-    println(result)
+    /*val s = "aba"
+    val n = 10L
+    result = repeatedString(s,n).toString()*/
+
+    val arr = arrayOf(1,3,5,7,9)
+    result = miniMaxSum(arr).toString()
+
+//    println(result)
 }
