@@ -1,5 +1,9 @@
 package challanges
 
+/*val ar = arrayOf(0,0,1,0,0,1,0,0)
+    result = jumpingOnClouds(ar).toString()*/
+
+
 fun jumpingOnClouds(c: Array<Int>): Int {
     var threshold = 0
     var count = 0

@@ -1,5 +1,9 @@
 package challanges
 
+/*val s = "aba"
+    val n = 10L
+    result = repeatedString(s,n).toString()*/
+
 fun repeatedString(s: String, n: Long): Long {
     var count = 0L
     val strLen = s.length
@@ -36,6 +40,9 @@ fun repeatedString(s: String, n: Long): Long {
 
     return count
 }
+
+/*val arr = arrayOf(1,3,5,7,9)
+result = miniMaxSum(arr).toString()*/
 
 fun miniMaxSum(arr: Array<Int>): Unit {
         val totSum = arr.sum()

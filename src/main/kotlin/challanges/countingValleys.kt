@@ -1,5 +1,8 @@
 package challanges
 
+/*val hikeString = "UDDDUDUU"
+    result = countingValleys(hikeString.length,hikeString).toString()*/
+
 fun countingValleys(n: Int, s: String):Int{
     var count = 0
     val chars = s.toCharArray()

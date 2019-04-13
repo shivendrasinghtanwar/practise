@@ -1,5 +1,8 @@
 package challanges
 
+//    val ar = arrayOf(1,1,3,1,2,1,3,3,3,3)
+//    sockMerchant(ar.size,ar).toString()
+
 fun sockMerchant(n: Int, ar: Array<Int>): Int {
     var copyArr = ar
     var counter = 0

@@ -1,4 +1,9 @@
-package challanges
+package challanges.pickingNumbers
+
+/*val ar1 = arrayOf(1,1,2,4,4,4,4,4,5,1,1)
+val ar2 = arrayOf(4,6,5,3,3,1)
+result = pickingNumbers(ar2).toString()*/
+
 
 fun pickingNumbers(a: Array<Int>): Int {
     var res = 2
