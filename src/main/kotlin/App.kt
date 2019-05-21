@@ -1,3 +1,4 @@
+import challanges.Arrays.hourglassSum
 import challanges.climbingTheLeaderboard.climbingLeaderboard
 import challanges.isValidSherlockString.isValidSherlockString
 import challanges.miniMaxSum
@@ -11,10 +12,10 @@ fun main(){
     val alice = arrayOf(5,25,50,50,120)
     result = climbingLeaderboard(scores,alice).joinToString("\n")*/
 
-    val s = "aabbcd"
+//    val s = "aabbcd"
 //    result = isValidSherlockString(s)
 
-    val a = arrayOf(7,1,7,4,1,7)
+   /* val a = arrayOf(7,1,7,4,1,7)
     var minDis = -1
     var numArr = a.distinct().toIntArray()
     for(i in 0..numArr.size-1){
@@ -30,6 +31,7 @@ fun main(){
     }
     result =  numArr.min().toString()
     println()
-    println()
+    println()*/
+
     println(result)
 }
