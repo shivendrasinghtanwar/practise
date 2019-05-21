@@ -1,4 +1,5 @@
 import challanges.Arrays.hourglassSum
+import challanges.Arrays.rotLeft
 import challanges.climbingTheLeaderboard.climbingLeaderboard
 import challanges.isValidSherlockString.isValidSherlockString
 import challanges.miniMaxSum
@@ -33,5 +34,12 @@ fun main(){
     println()
     println()*/
 
-    println(result)
+    val arr = arrayOf(1,2,3,4,5)
+    result = rotLeft(arr,24).toString()
+    var i = 0
+    repeat(arr.size){
+        print(arr[i])
+        i++
+    }
+//    println(result)
 }
