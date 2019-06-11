@@ -1,5 +1,6 @@
 import challanges.Arrays.hourglassSum
 import challanges.Arrays.rotLeft
+import challanges.FizzBuzz.fizzBuzz
 import challanges.climbingTheLeaderboard.climbingLeaderboard
 import challanges.isValidSherlockString.isValidSherlockString
 import challanges.miniMaxSum
@@ -34,12 +35,14 @@ fun main(){
     println()
     println()*/
 
-    val arr = arrayOf(1,2,3,4,5)
+    /*val arr = arrayOf(1,2,3,4,5)
     result = rotLeft(arr,24).toString()
     var i = 0
     repeat(arr.size){
         print(arr[i])
         i++
-    }
+    }*/
+    val totalNum = 100
+    fizzBuzz(totalNum)
 //    println(result)
 }
